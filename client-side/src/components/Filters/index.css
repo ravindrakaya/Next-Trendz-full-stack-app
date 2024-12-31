@@ -1,0 +1,35 @@
+.filters-text {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 400;
+}
+.category-container {
+  border-top: 1px solid #dee0df;
+  margin-bottom: 10px;
+}
+.label-filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.checkbox {
+  height: 18px;
+  width: 18px;
+}
+.label-filter {
+  color: #64748b;
+  margin-left: 5px;
+}
+.filter-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #2d87bb;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.apply {
+  background-color: #ffc107;
+}

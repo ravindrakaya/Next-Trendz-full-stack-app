@@ -1,0 +1,47 @@
+.show-card-container {
+  margin: 20px;
+  border: 1px solid #cbced2;
+  padding: 10px;
+  border-radius: 5px;
+  /* width: 300px; */
+}
+.show-card-text {
+  font-size: 13px;
+  color: #1e293b;
+}
+.address-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.address-list-text {
+  margin-left: 5px;
+  color: #1e293b;
+}
+.change-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.change-btn {
+  outline: none;
+  border: none;
+  background-color: #3b82f6;
+  color: aliceblue;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .show-address-text {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .show-address-container {
+    width: 550px;
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+}

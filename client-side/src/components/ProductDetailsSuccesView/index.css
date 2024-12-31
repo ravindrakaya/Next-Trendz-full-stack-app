@@ -1,0 +1,125 @@
+.product-details-container {
+  min-height: 100vh;
+  padding-top: 180px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.product-detail-image-large-screen {
+  display: none;
+}
+.product-detail-image-small-screen {
+  height: 380px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-details-text {
+  color: #171f46;
+  font-size: 22px;
+}
+.product-details-description {
+  color: #616e7c;
+  font-size: 18px;
+}
+.product-details-price {
+  color: #12022f;
+  font-weight: 700;
+  font-size: 20px;
+}
+.product-rating-review-container {
+  display: flex;
+  align-items: center;
+}
+.product-details-review {
+  color: #171f46;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.product-details-availability {
+  color: #12022f;
+  font-size: 18px;
+}
+.in-stock {
+  font-weight: 500;
+  font-size: 20px;
+  color: green;
+}
+.out-of-stock {
+  font-weight: 500;
+  font-size: 20px;
+  color: red;
+}
+.brand {
+  color: #616e7c;
+  font-size: 18px;
+  font-weight: 400;
+}
+.quantity-container {
+  border-top: 1px solid #dee0df;
+  display: flex;
+  align-items: center;
+}
+.quantity-text {
+  font-size: 18px;
+  color: #12022f;
+}
+.quantity-react-icon {
+  font-size: 20px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.quantity-items-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.product-count {
+  color: #3b82f6;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 8px;
+  border: 1px solid #dee0df;
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+.add-cart-btn {
+  outline: none;
+  border: none;
+  padding: 15px;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+}
+.count-icon-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+
+@media screen and (min-width: 992px) {
+  .product-details-container {
+    min-height: 100vh;
+    padding-top: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .product-detail-image-large-screen {
+    display: block;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .product-detail-image-small-screen {
+    display: none;
+  }
+  .product-details-content-container {
+    margin-left: 50px;
+  }
+}

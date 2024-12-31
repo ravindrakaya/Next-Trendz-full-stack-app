@@ -1,0 +1,78 @@
+.products-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 180px;
+  padding-right: 20px;
+}
+.products-header-text {
+  color: #475569;
+  font-size: 15px;
+    margin-right: 5px;
+}
+.sort-by-container {
+  display: flex;
+  align-items: center;
+}
+.sort-by-icon {
+  font-size: 14px;
+  color: #475569;
+}
+.sort-by-text {
+  font-size: 15px;
+  color: #475569;
+  margin: 0px 10px;
+}
+.sort-by-select {
+  font-size: 15px;
+  
+  color: #475569;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+.select-option {
+  font-size: 15px;
+  color: #475569;
+}
+@media screen and (min-width: 992px) {
+  .products-header-container {
+    padding-top: 130px;
+  }
+  .products-header-text {
+    font-size: 25px;
+    margin-right: 5px;
+  }
+  .sort-by-icon {
+    font-size: 18px;
+  }
+  .sort-by-text {
+    font-size: 18px;
+  }
+  .sort-by-select {
+    font-size: 18px;
+  }
+  .select-option {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .products-header-text {
+    font-size: 22px;
+  }
+  .sort-by-icon {
+    font-size: 20x;
+  }
+  .sort-by-text {
+    font-size: 20x;
+  }
+  .sort-by-select {
+    font-size: 20x;
+  }
+  .select-option {
+    font-size: 20px;
+  }
+}

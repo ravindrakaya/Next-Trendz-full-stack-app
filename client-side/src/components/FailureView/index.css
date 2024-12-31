@@ -1,0 +1,25 @@
+.product-failure-view {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.product-failure-image {
+  height: 350px;
+  width: 400px;
+}
+.product-failure-heading-text {
+  color: #171f46;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.products-failure-description {
+  text-align: center;
+  color: #64748b;
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}

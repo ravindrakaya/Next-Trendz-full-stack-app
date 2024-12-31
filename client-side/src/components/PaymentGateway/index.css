@@ -1,0 +1,55 @@
+.payment-gateway-container {
+  min-height: 100vh;
+  /* padding: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/premium-vector/elegant-smooth-plain-background_800742-551.jpg?w=740");
+  background-size: cover;
+}
+.payment-gateway-text {
+  font-size: 16px;
+  color: #171f46;
+}
+.payment-gateway-amount {
+  font-size: 16px;
+  color: #3b82f6;
+  font-weight: 500;
+}
+.drop-down-container {
+  outline: none;
+  padding: 5px;
+  margin-left: 5px;
+  color: #171f46;
+}
+.pay-now-btn {
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: goldenrod;
+  color: aliceblue;
+  cursor: pointer;
+}
+.hide-payment {
+  display: none;
+}
+.order-success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://img.freepik.com/premium-vector/elegant-smooth-plain-background_800742-551.jpg?w=740");
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .payment-gateway-text {
+    font-size: 20px;
+  }
+  .payment-gateway-amount {
+    font-size: 20px;
+  }
+}

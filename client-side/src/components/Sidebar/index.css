@@ -1,0 +1,39 @@
+.side-bar {
+  border-top: 1px solid #dee0df;
+  /* min-height: 100vh; don't provide this property while using position */
+  background-color: #f1f5f9;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 90px;
+  bottom: 0px;
+  overflow-y: auto;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+.search-input {
+  border: none;
+  outline: none;
+}
+.search-icon {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .side-bar {
+    width: 100%;
+    top: 200px;
+  }
+}

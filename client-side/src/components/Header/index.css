@@ -1,0 +1,138 @@
+.nav-header {
+  background-color: #f1f5f9;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+.nav-menu-logo-container {
+  display: flex;
+  align-items: center;
+}
+.nav-menu-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.nav-content-large-devices {
+  display: none;
+}
+.nav-content-small-devices {
+  padding: 0 10px;
+  width: 100%;
+}
+.logo-and-logout-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-text {
+  margin-top: 12px;
+}
+.logo-span {
+  color: #0b69ff;
+}
+.website-logo {
+  height: 35px;
+  width: 120px;
+  margin-left: 5px;
+}
+.react-icon {
+  font-size: 25px;
+}
+.react-icon-nav-menu {
+  font-size: 25px;
+}
+.react-icon-logout {
+  font-size: 25px;
+}
+.logout-icon-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.link-style {
+  text-decoration: none;
+  color: #64748b;
+}
+.nav-link-container {
+  width: 100%;
+  background-color: #e6f6ff;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart-count-container {
+  display: flex;
+  align-items: center;
+}
+.cart-count {
+  color: #ffc107;
+  font-weight: 600;
+  font-size: 18px;
+  border: 1px solid #cbced2;
+  width: 30px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 1px;
+  /* margin-bottom: 20px; */
+}
+.count-hide {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .nav-content-small-devices {
+    display: none;
+  }
+  .nav-content-large-devices {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+  }
+  .website-logo {
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+  }
+  .links-and-logout-container {
+    display: flex;
+    align-items: center;
+  }
+  .links-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  .list-item {
+    font-size: 18px;
+    margin-right: 50px;
+  }
+  .logout-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #0b69ff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #e6f6ff;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+/* @media screen and (min-width: 768px) and (min-width: 992px) {
+  .react-icon {
+    font-size: 25px;
+  }
+  .react-icon-nav-menu {
+    font-size: 25px;
+  }
+  .react-icon-logout {
+    font-size: 25px;
+  }
+} */

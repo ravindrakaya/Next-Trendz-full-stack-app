@@ -1,0 +1,84 @@
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+}
+.home-container {
+  min-height: 100vh;
+  padding: 0px 50px;
+  padding-top: 100px;
+padding-bottom: 30px;
+}
+.home-img-small-screen {
+  height: 300px;
+  width: 100%;
+}
+.home-img-large-screen {
+  display: none;
+}
+.home-content-container {
+  /* min-height: 100vh; */
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-heading {
+  color: #1e293b;
+  font-size: 19px;
+}
+.home-description {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: 500;
+}
+.shop-now-btn {
+  color: #ffffff;
+  outline: none;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .home-img-small-screen {
+    display: none;
+  }
+  .home-img-large-screen {
+    display: block;
+    height: 500px;
+    width: 500px;
+  }
+  .home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .home-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home-img-small-screen {
+    height: 500px;
+    width: 100%;
+  }
+  .home-heading {
+    font-size: 25px;
+  }
+  .home-description {
+    font-size: 20px;
+  }
+  .shop-now-btn {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,35 @@
+.logo-img {
+  height: 200x;
+  width: 200px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.login-img-mobile-view {
+  height: 300px;
+  width: 400px;
+  align-self: center;
+}
+.login-img-desktop-view {
+  display: none;
+}
+
+.error-msg {
+  color: #ff0b37;
+}
+
+@media screen and (min-width: 992px) {
+  .login-img-mobile-view {
+    display: none;
+  }
+  .login-img-desktop-view {
+    display: inline;
+    height: 400px;
+    width: 500px;
+    align-self: center;
+  }
+  .authentication-form {
+    width: 35%;
+    height: 400px;
+  }
+}
