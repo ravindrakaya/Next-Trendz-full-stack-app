@@ -92,7 +92,7 @@ const Login = () => {
 
       try {
         const response = await axios.post(
-          "http://localhost:3000/login",
+          "https://nxt-trendz-backend.onrender.com/login",
           values
         );
         // console.log(response);

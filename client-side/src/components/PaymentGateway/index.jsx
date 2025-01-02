@@ -49,7 +49,7 @@ const PaymentGateway = () => {
           cardDetails.length > 0 &&
           paymentMode === "DebitCard")
       ) {
-        url = "http://localhost:3000/payment";
+        url = "https://nxt-trendz-backend.onrender.com/payment";
         paymentData = { cartItem, address, totalAmount, paymentMode };
         const response = await axios.post(url, paymentData);
         onCompletePayment("SUCCESS");

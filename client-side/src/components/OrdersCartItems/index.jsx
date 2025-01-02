@@ -9,7 +9,7 @@ const OrdersCartItems = (props) => {
 
   const onClickCancleBtn = async () => {
     try {
-      const url = "http://localhost:3000/cancel-order";
+      const url = "https://nxt-trendz-backend.onrender.com/cancel-order";
       const values = { id, orderId };
       const response = await axios.post(url, values);
       console.log(response);
