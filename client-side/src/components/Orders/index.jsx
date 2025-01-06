@@ -29,7 +29,8 @@ const Orders = () => {
   const getOrdersList = async () => {
     try {
       dispatch(setApiStatus(apiStatusConstants.inProgress));
-      const url = "https://nxt-trendz-backend.onrender.com/orders";
+      // const url = "https://nxt-trendz-backend.onrender.com/orders";
+      const url = "http://localhost:3000/orders";
       const response = await axios(url);
       // console.log(response);
       if (response.status === 200) {

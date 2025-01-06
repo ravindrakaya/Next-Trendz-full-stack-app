@@ -83,7 +83,8 @@ const Signup = () => {
 
       try {
         const response = await axios.post(
-          "https://nxt-trendz-backend.onrender.com/signup",
+          // "https://nxt-trendz-backend.onrender.com/signup",
+          "http://localhost:3000/signup",
           values
         );
         // console.log(response);

@@ -92,10 +92,11 @@ const Login = () => {
 
       try {
         const response = await axios.post(
-          "https://nxt-trendz-backend.onrender.com/login",
+          // "https://nxt-trendz-backend.onrender.com/login",
+          "http://localhost:3000/login",
           values
         );
-        // console.log(response);
+        console.log(response)
         if (response.status === 200) {
           onSubmitSuccess(response.data.jwtToken);
         } else {

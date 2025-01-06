@@ -51,6 +51,7 @@ router.post("/login", (request, response) => {
             { expiresIn: "1h" }
           );
           response.json({ jwtToken: jwtToken });
+          // response.send(jwtToken)
         }
       }
     }

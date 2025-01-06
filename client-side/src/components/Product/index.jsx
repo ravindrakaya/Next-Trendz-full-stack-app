@@ -54,7 +54,9 @@ const Product = () => {
   const getProducts = async () => {
     try {
       dispatch(setApiStatus(apiStatusConstants.inProgress));
-      const response = await axios.get("https://nxt-trendz-backend.onrender.com/products");
+      // const url = "https://nxt-trendz-backend.onrender.com/products"
+      const url = "http://localhost:3000/products"
+      const response = await axios.get(url);
       // console.log(response);
       if (response.status === 200) {
         // console.log(response.data);

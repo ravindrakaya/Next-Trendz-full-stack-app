@@ -20,12 +20,11 @@ const apiStatusConstants = {
 const ProductItemDetails = () => {
   const { productId } = useParams();
   // console.log(productId)
-  
+
   const dispatch = useDispatch();
 
   const apiStatusStore = useSelector((state) => state.products.apiStatus);
 
-  
   useEffect(() => {
     getProductitemDetails();
   }, [dispatch]);
@@ -33,9 +32,9 @@ const ProductItemDetails = () => {
   const getProductitemDetails = async () => {
     try {
       dispatch(setApiStatus(apiStatusConstants.inProgress));
-      const response = await axios.get(
-        `https://nxt-trendz-backend.onrender.com/products/${productId}`
-      );
+      // const url =  `https://nxt-trendz-backend.onrender.com/products/${productId}`
+      const url = `http://localhost:3000/products/${productId}`;
+      const response = await axios.get(url);
       // console.log(response);
       if (response.status === 200) {
         const updatedData = {

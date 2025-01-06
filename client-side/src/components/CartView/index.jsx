@@ -36,7 +36,8 @@ const CartView = () => {
   const onClickContinueBtn = async () => {
     dispatch(setIsContinue(true));
     try {
-      const url = "https://nxt-trendz-backend.onrender.com/place-order";
+      // const url = "https://nxt-trendz-backend.onrender.com/place-order";
+      const url = "http://localhost:3000/place-order";
 
       const response = await axios.post(url, cartItems);
       if (response.status === 200) {
